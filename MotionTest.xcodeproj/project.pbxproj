@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE244E8317A8253600A5C425 /* Stage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244E8217A8253600A5C425 /* Stage2ViewController.m */; };
+		EE244E8517A8265400A5C425 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE244E8417A8265400A5C425 /* QuartzCore.framework */; };
+		EE244E9817ABC7B200A5C425 /* TwoAttachmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244E9717ABC7B200A5C425 /* TwoAttachmentsViewController.m */; };
+		EE244E9C17AE973100A5C425 /* HorizontalAttachmentBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244E9B17AE973100A5C425 /* HorizontalAttachmentBehavior.m */; };
+		EE244E9F17AEA95100A5C425 /* HorizontalDragBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244E9E17AEA95100A5C425 /* HorizontalDragBehavior.m */; };
+		EE244EA317AEAD6700A5C425 /* HorizontalCollisionBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244EA217AEAD6700A5C425 /* HorizontalCollisionBehavior.m */; };
+		EE244EA617AEAD7D00A5C425 /* HorizontalForceBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EE244EA517AEAD7D00A5C425 /* HorizontalForceBehavior.m */; };
+		EE6B6B1217B7E3CA0007C927 /* VerticalSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B6B1117B7E3B10007C927 /* VerticalSplitView.m */; };
+		EE6B6B1517B85F9B0007C927 /* HorizontalSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B6B1417B85F9B0007C927 /* HorizontalSplitView.m */; };
+		EE6B6B1917B864BB0007C927 /* UIColor+iOSeeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B6B1817B864BB0007C927 /* UIColor+iOSeeAdditions.m */; };
+		EEF4338D17A6D96D00521B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4338C17A6D96D00521B2B /* Foundation.framework */; };
+		EEF4338F17A6D96D00521B2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4338E17A6D96D00521B2B /* CoreGraphics.framework */; };
+		EEF4339117A6D96D00521B2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4339017A6D96D00521B2B /* UIKit.framework */; };
+		EEF4339717A6D96D00521B2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF4339517A6D96D00521B2B /* InfoPlist.strings */; };
+		EEF4339917A6D96D00521B2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4339817A6D96D00521B2B /* main.m */; };
+		EEF4339D17A6D96D00521B2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4339C17A6D96D00521B2B /* AppDelegate.m */; };
+		EEF433A017A6D96D00521B2B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4339E17A6D96D00521B2B /* Main_iPhone.storyboard */; };
+		EEF433A317A6D96D00521B2B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF433A117A6D96D00521B2B /* Main_iPad.storyboard */; };
+		EEF433A817A6D96E00521B2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF433A717A6D96E00521B2B /* Images.xcassets */; };
+		EEF433AF17A6D96E00521B2B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF433AE17A6D96E00521B2B /* XCTest.framework */; };
+		EEF433B017A6D96E00521B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4338C17A6D96D00521B2B /* Foundation.framework */; };
+		EEF433B117A6D96E00521B2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4339017A6D96D00521B2B /* UIKit.framework */; };
+		EEF433B917A6D96E00521B2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF433B717A6D96E00521B2B /* InfoPlist.strings */; };
+		EEF433BB17A6D96E00521B2B /* MotionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF433BA17A6D96E00521B2B /* MotionTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF433B217A6D96E00521B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4338117A6D96D00521B2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF4338817A6D96D00521B2B;
+			remoteInfo = MotionTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE244E8117A8253600A5C425 /* Stage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2ViewController.h; sourceTree = "<group>"; };
+		EE244E8217A8253600A5C425 /* Stage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stage2ViewController.m; sourceTree = "<group>"; };
+		EE244E8417A8265400A5C425 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE244E9617ABC7B200A5C425 /* TwoAttachmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoAttachmentsViewController.h; sourceTree = "<group>"; };
+		EE244E9717ABC7B200A5C425 /* TwoAttachmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoAttachmentsViewController.m; sourceTree = "<group>"; };
+		EE244E9A17AE973100A5C425 /* HorizontalAttachmentBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalAttachmentBehavior.h; sourceTree = "<group>"; };
+		EE244E9B17AE973100A5C425 /* HorizontalAttachmentBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalAttachmentBehavior.m; sourceTree = "<group>"; };
+		EE244E9D17AEA95100A5C425 /* HorizontalDragBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalDragBehavior.h; sourceTree = "<group>"; };
+		EE244E9E17AEA95100A5C425 /* HorizontalDragBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalDragBehavior.m; sourceTree = "<group>"; };
+		EE244EA117AEAD6700A5C425 /* HorizontalCollisionBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCollisionBehavior.h; sourceTree = "<group>"; };
+		EE244EA217AEAD6700A5C425 /* HorizontalCollisionBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCollisionBehavior.m; sourceTree = "<group>"; };
+		EE244EA417AEAD7D00A5C425 /* HorizontalForceBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalForceBehavior.h; sourceTree = "<group>"; };
+		EE244EA517AEAD7D00A5C425 /* HorizontalForceBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalForceBehavior.m; sourceTree = "<group>"; };
+		EE6B6B1017B7E3B10007C927 /* VerticalSplitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalSplitView.h; sourceTree = "<group>"; };
+		EE6B6B1117B7E3B10007C927 /* VerticalSplitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalSplitView.m; sourceTree = "<group>"; };
+		EE6B6B1317B85F9B0007C927 /* HorizontalSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSplitView.h; sourceTree = "<group>"; };
+		EE6B6B1417B85F9B0007C927 /* HorizontalSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalSplitView.m; sourceTree = "<group>"; };
+		EE6B6B1717B864BB0007C927 /* UIColor+iOSeeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOSeeAdditions.h"; sourceTree = "<group>"; };
+		EE6B6B1817B864BB0007C927 /* UIColor+iOSeeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOSeeAdditions.m"; sourceTree = "<group>"; };
+		EE6B6B1B17B86AD70007C927 /* BaseSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSplitView.h; sourceTree = "<group>"; };
+		EEF4338917A6D96D00521B2B /* MotionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4338C17A6D96D00521B2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEF4338E17A6D96D00521B2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEF4339017A6D96D00521B2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEF4339417A6D96D00521B2B /* MotionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionTest-Info.plist"; sourceTree = "<group>"; };
+		EEF4339617A6D96D00521B2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF4339817A6D96D00521B2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF4339A17A6D96D00521B2B /* MotionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionTest-Prefix.pch"; sourceTree = "<group>"; };
+		EEF4339B17A6D96D00521B2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF4339C17A6D96D00521B2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF4339F17A6D96D00521B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EEF433A217A6D96D00521B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EEF433A717A6D96E00521B2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEF433AD17A6D96E00521B2B /* MotionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF433AE17A6D96E00521B2B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEF433B617A6D96E00521B2B /* MotionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionTestTests-Info.plist"; sourceTree = "<group>"; };
+		EEF433B817A6D96E00521B2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF433BA17A6D96E00521B2B /* MotionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF4338617A6D96D00521B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE244E8517A8265400A5C425 /* QuartzCore.framework in Frameworks */,
+				EEF4338F17A6D96D00521B2B /* CoreGraphics.framework in Frameworks */,
+				EEF4339117A6D96D00521B2B /* UIKit.framework in Frameworks */,
+				EEF4338D17A6D96D00521B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF433AA17A6D96E00521B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF433AF17A6D96E00521B2B /* XCTest.framework in Frameworks */,
+				EEF433B117A6D96E00521B2B /* UIKit.framework in Frameworks */,
+				EEF433B017A6D96E00521B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE244E8917AAAADF00A5C425 /* Behaviours */ = {
+			isa = PBXGroup;
+			children = (
+				EE244E9A17AE973100A5C425 /* HorizontalAttachmentBehavior.h */,
+				EE244E9B17AE973100A5C425 /* HorizontalAttachmentBehavior.m */,
+				EE244EA117AEAD6700A5C425 /* HorizontalCollisionBehavior.h */,
+				EE244EA217AEAD6700A5C425 /* HorizontalCollisionBehavior.m */,
+				EE244EA417AEAD7D00A5C425 /* HorizontalForceBehavior.h */,
+				EE244EA517AEAD7D00A5C425 /* HorizontalForceBehavior.m */,
+				EE244E9D17AEA95100A5C425 /* HorizontalDragBehavior.h */,
+				EE244E9E17AEA95100A5C425 /* HorizontalDragBehavior.m */,
+			);
+			name = Behaviours;
+			sourceTree = "<group>";
+		};
+		EE244E9917ABC80F00A5C425 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE244E9617ABC7B200A5C425 /* TwoAttachmentsViewController.h */,
+				EE244E9717ABC7B200A5C425 /* TwoAttachmentsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EE6B6B0F17B7E37B0007C927 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE6B6B1B17B86AD70007C927 /* BaseSplitView.h */,
+				EE6B6B1017B7E3B10007C927 /* VerticalSplitView.h */,
+				EE6B6B1117B7E3B10007C927 /* VerticalSplitView.m */,
+				EE6B6B1317B85F9B0007C927 /* HorizontalSplitView.h */,
+				EE6B6B1417B85F9B0007C927 /* HorizontalSplitView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EE6B6B1617B8646C0007C927 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE6B6B1717B864BB0007C927 /* UIColor+iOSeeAdditions.h */,
+				EE6B6B1817B864BB0007C927 /* UIColor+iOSeeAdditions.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EEF4338017A6D96D00521B2B = {
+			isa = PBXGroup;
+			children = (
+				EEF4339217A6D96D00521B2B /* MotionTest */,
+				EEF433B417A6D96E00521B2B /* MotionTestTests */,
+				EEF4338B17A6D96D00521B2B /* Frameworks */,
+				EEF4338A17A6D96D00521B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF4338A17A6D96D00521B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4338917A6D96D00521B2B /* MotionTest.app */,
+				EEF433AD17A6D96E00521B2B /* MotionTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4338B17A6D96D00521B2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE244E8417A8265400A5C425 /* QuartzCore.framework */,
+				EEF4338C17A6D96D00521B2B /* Foundation.framework */,
+				EEF4338E17A6D96D00521B2B /* CoreGraphics.framework */,
+				EEF4339017A6D96D00521B2B /* UIKit.framework */,
+				EEF433AE17A6D96E00521B2B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF4339217A6D96D00521B2B /* MotionTest */ = {
+			isa = PBXGroup;
+			children = (
+				EE6B6B1617B8646C0007C927 /* Helpers */,
+				EE6B6B0F17B7E37B0007C927 /* Views */,
+				EE244E9917ABC80F00A5C425 /* Controllers */,
+				EE244E8917AAAADF00A5C425 /* Behaviours */,
+				EEF4339B17A6D96D00521B2B /* AppDelegate.h */,
+				EEF4339C17A6D96D00521B2B /* AppDelegate.m */,
+				EEF4339E17A6D96D00521B2B /* Main_iPhone.storyboard */,
+				EEF433A117A6D96D00521B2B /* Main_iPad.storyboard */,
+				EEF433A717A6D96E00521B2B /* Images.xcassets */,
+				EEF4339317A6D96D00521B2B /* Supporting Files */,
+				EE244E8117A8253600A5C425 /* Stage2ViewController.h */,
+				EE244E8217A8253600A5C425 /* Stage2ViewController.m */,
+			);
+			path = MotionTest;
+			sourceTree = "<group>";
+		};
+		EEF4339317A6D96D00521B2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4339417A6D96D00521B2B /* MotionTest-Info.plist */,
+				EEF4339517A6D96D00521B2B /* InfoPlist.strings */,
+				EEF4339817A6D96D00521B2B /* main.m */,
+				EEF4339A17A6D96D00521B2B /* MotionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF433B417A6D96E00521B2B /* MotionTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF433BA17A6D96E00521B2B /* MotionTestTests.m */,
+				EEF433B517A6D96E00521B2B /* Supporting Files */,
+			);
+			path = MotionTestTests;
+			sourceTree = "<group>";
+		};
+		EEF433B517A6D96E00521B2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF433B617A6D96E00521B2B /* MotionTestTests-Info.plist */,
+				EEF433B717A6D96E00521B2B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF4338817A6D96D00521B2B /* MotionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF433BE17A6D96E00521B2B /* Build configuration list for PBXNativeTarget "MotionTest" */;
+			buildPhases = (
+				EEF4338517A6D96D00521B2B /* Sources */,
+				EEF4338617A6D96D00521B2B /* Frameworks */,
+				EEF4338717A6D96D00521B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionTest;
+			productName = MotionTest;
+			productReference = EEF4338917A6D96D00521B2B /* MotionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF433AC17A6D96E00521B2B /* MotionTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF433C117A6D96E00521B2B /* Build configuration list for PBXNativeTarget "MotionTestTests" */;
+			buildPhases = (
+				EEF433A917A6D96E00521B2B /* Sources */,
+				EEF433AA17A6D96E00521B2B /* Frameworks */,
+				EEF433AB17A6D96E00521B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF433B317A6D96E00521B2B /* PBXTargetDependency */,
+			);
+			name = MotionTestTests;
+			productName = MotionTestTests;
+			productReference = EEF433AD17A6D96E00521B2B /* MotionTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4338117A6D96D00521B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hans De Smedt";
+				TargetAttributes = {
+					EEF4338817A6D96D00521B2B = {
+						DevelopmentTeam = UA32538HYQ;
+					};
+					EEF433AC17A6D96E00521B2B = {
+						TestTargetID = EEF4338817A6D96D00521B2B;
+					};
+				};
+			};
+			buildConfigurationList = EEF4338417A6D96D00521B2B /* Build configuration list for PBXProject "MotionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF4338017A6D96D00521B2B;
+			productRefGroup = EEF4338A17A6D96D00521B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF4338817A6D96D00521B2B /* MotionTest */,
+				EEF433AC17A6D96E00521B2B /* MotionTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF4338717A6D96D00521B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF433A317A6D96D00521B2B /* Main_iPad.storyboard in Resources */,
+				EEF433A817A6D96E00521B2B /* Images.xcassets in Resources */,
+				EEF433A017A6D96D00521B2B /* Main_iPhone.storyboard in Resources */,
+				EEF4339717A6D96D00521B2B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF433AB17A6D96E00521B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF433B917A6D96E00521B2B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF4338517A6D96D00521B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6B6B1217B7E3CA0007C927 /* VerticalSplitView.m in Sources */,
+				EE244EA617AEAD7D00A5C425 /* HorizontalForceBehavior.m in Sources */,
+				EEF4339D17A6D96D00521B2B /* AppDelegate.m in Sources */,
+				EE244E8317A8253600A5C425 /* Stage2ViewController.m in Sources */,
+				EEF4339917A6D96D00521B2B /* main.m in Sources */,
+				EE244E9C17AE973100A5C425 /* HorizontalAttachmentBehavior.m in Sources */,
+				EE244E9817ABC7B200A5C425 /* TwoAttachmentsViewController.m in Sources */,
+				EE6B6B1517B85F9B0007C927 /* HorizontalSplitView.m in Sources */,
+				EE244EA317AEAD6700A5C425 /* HorizontalCollisionBehavior.m in Sources */,
+				EE244E9F17AEA95100A5C425 /* HorizontalDragBehavior.m in Sources */,
+				EE6B6B1917B864BB0007C927 /* UIColor+iOSeeAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF433A917A6D96E00521B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF433BB17A6D96E00521B2B /* MotionTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF433B317A6D96E00521B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF4338817A6D96D00521B2B /* MotionTest */;
+			targetProxy = EEF433B217A6D96E00521B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF4339517A6D96D00521B2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4339617A6D96D00521B2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEF4339E17A6D96D00521B2B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4339F17A6D96D00521B2B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF433A117A6D96D00521B2B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF433A217A6D96D00521B2B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF433B717A6D96E00521B2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF433B817A6D96E00521B2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF433BC17A6D96E00521B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF433BD17A6D96E00521B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF433BF17A6D96E00521B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionTest/MotionTest-Prefix.pch";
+				INFOPLIST_FILE = "MotionTest/MotionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEF433C017A6D96E00521B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionTest/MotionTest-Prefix.pch";
+				INFOPLIST_FILE = "MotionTest/MotionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEF433C217A6D96E00521B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MotionTest.app/MotionTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionTest/MotionTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MotionTestTests/MotionTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEF433C317A6D96E00521B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MotionTest.app/MotionTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionTest/MotionTest-Prefix.pch";
+				INFOPLIST_FILE = "MotionTestTests/MotionTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF4338417A6D96D00521B2B /* Build configuration list for PBXProject "MotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF433BC17A6D96E00521B2B /* Debug */,
+				EEF433BD17A6D96E00521B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF433BE17A6D96E00521B2B /* Build configuration list for PBXNativeTarget "MotionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF433BF17A6D96E00521B2B /* Debug */,
+				EEF433C017A6D96E00521B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF433C117A6D96E00521B2B /* Build configuration list for PBXNativeTarget "MotionTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF433C217A6D96E00521B2B /* Debug */,
+				EEF433C317A6D96E00521B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4338117A6D96D00521B2B /* Project object */;
+}
